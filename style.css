@@ -174,3 +174,71 @@ h2 {
 .table-2 tr:nth-last-child(-n+3) td:nth-of-type(1) {
     color: white;
 }
+
+@media (max-width: 786px) {
+    h3 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    td, th {
+        font-size: 14px;      
+        padding: 10px 25px 10px 15px;
+    }
+}
+
+@media (max-width: 560px) {
+    h3 {
+        font-size: 22px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    td, th {
+        font-size: 12px;      
+        padding: 5px 15px 5px 10px;
+    }
+
+    .table-0 td {
+        padding: 5px 55px 5px 10px;
+    }
+
+    .table-2 th {
+        padding: 5px 55px 5px 10px;
+    }
+    
+}
+
+@media (max-width: 388px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    td, th {
+        font-size: 10px;      
+        padding: 1px 3px 1px 3px;
+    }
+
+    .table-0 td {
+        padding: 2px 45px 2px 5px;
+    }
+
+    .table-2 th {
+        padding: 1px 25px 1px 3px;
+    }
+
+    .table-2 td {
+        padding: 5px 30px 5px 5px;
+    }
+}
